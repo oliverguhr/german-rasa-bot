@@ -20,6 +20,8 @@ Clone this repo to get started:
 git clone https://github.com/RasaHQ/starter-pack-rasa-stack.git
 ```
 
+**The starter-pack should be run with the most recent release of Rasa.** If you are feeling adventourous, check out the `latest` branch and install the `master` branch version of Rasa.
+
 After you clone the repository, a directory called starter-pack-rasa-stack will be downloaded to your local machine. It contains all the files of this repo and you should refer to this directory as your 'project directory'.
 
 
