@@ -1,0 +1,282 @@
+<!--- Make sure to update this training data file with more training examples from https://forum.rasa.com/t/rasa-starter-pack/704 --> 
+
+## intent:goodbye <!--- The label of the intent --> 
+- Schönen Abend noch
+- Auf Wiederschauen
+- Auf Wiederschauen bot
+- auf wiedersehen
+- Auf Wiedersehen bot
+- Auf Wiedersehen, chat bot.
+- bis bald
+- bis dann
+- bis demnächst
+- bis denn
+- bis die Tage
+- Bis morgen
+- bis nachher
+- Bis später
+- bis zum nächsten Mal
+- bis bald bot
+- bis dann bot
+- bis demnächst bot
+- bis denn bot
+- bis die Tage bot
+- Bis morgen bot
+- bis nachher bot
+- Bis später bot
+- bis zum nächsten Mal bot
+- Bis zum nächsten Mal. Tschau.
+- bye
+- bot
+- Ciao.
+- Ich gehe jetzt
+- Ich verabschiede mich jetzt
+- Mach es gut
+- Machs gut!
+- Man sieht sich!
+- Pass gut auf dich auf!
+- Schönen Tag
+- schönen tag noch
+- Schönes Wochenende
+- Schön Feierabend
+- Tschau
+- tschüs
+- tschüs bot
+- Tschüss.
+- Tschüss chat bot.
+- Wir sehen uns!
+- Wir sehen uns das nächste mal
+
+
+## intent:greet
+- Grüß Gott!
+- Guten Tag!
+- Guten Tag bot
+- Guten Tag lieber bot
+- Hallo.
+- Sag mal hallo
+- Hallo du da
+- Hallo du bot
+- Hallo lieber bot.
+- Hallo bot.
+- Hey!
+- Hey robo
+- Hey bot
+- Hey bot kannst du hallo sagen
+- Hi
+- Hi bot kannst du hallo sagen
+- Hi hallo
+- Mahlzeit!
+- Moin!
+- Moin, bot kannst du hallo sagen
+- Moin moin!
+- Na du?!
+- Na du, bot
+- Na du sag mal hallo
+- Na du bot, sag mal hallo
+- Sag mal hallo.
+- Kannst du hallo sagen
+- Kannst mich begrüßen
+- Kannst du uns begrüßen
+- sei gegrüßt
+- sei gegrüßt bot
+- Servus
+- Servus bot
+- hi bot
+- hi bot
+- huhu bot
+- huhu du da
+- huhu hallo
+- huhu
+- huhu sag mal hallo
+ 
+## intent:thanks
+- Danke
+- vielen dank
+- vielen lieben dank
+- danke bot
+- lieben dank
+- toll danke
+- ok danke
+- perfekt danke 
+- danke für alles 
+- danke für die hilfe
+- cool, danke
+- ja danke
+- ok vielen dank
+- großartig vielen dank
+
+## intent:affirm
+- Alles klar.
+- Alles klar bot
+- auf jeden fall
+- Dann erzähl mal.
+- Dann erzähl mal bot
+- gern
+- gern bot
+- Gerne.
+- Gerne. Ja.
+- Ich will mehr darüber wissen.
+- ja
+- ja bot
+- Ja.
+- Ja bitte.
+- Ja doch, erzähl mal.
+- Ja erzähl mal.
+- Ja erzähl mal noch ein bisschen.
+- Ja erzähl mal noch ein bisschen mehr.
+- Ja, erzähl mal was.
+- Ja gerne.
+- Ja ja doch.
+- Ja ja, hab ich.
+- Ja klar.
+- Jo.
+- johr
+- Na gut.
+- Na immer mehr.
+- na klar
+- Na klar.
+- Natürlich.
+- Noch mehr.
+- Erzähle mir mehr
+- Erzähle noch mehr
+- nu klar
+- ok
+- okay
+- Okay.
+- Okay, dann kommen wir mal wieder.
+- Sehr gern.
+- Sehr gern bot
+- Na klar bot
+- Natürlich bot
+- nu klar bot
+- ok bot
+- okay bot
+
+## intent:name
+- Mein name ist [Juste](name)  <!--- Square brackets contain the value of entity while the text in parentheses is a a label of the entity --> 
+- ich bin [Tim](name)
+- ich bin [Robert](name)
+- ich bin [Tom](name)
+- ich bin [Sarah](name)
+- ich bin [Lisa](name)
+- ich bin [Fatima](name)
+- ich bin [Ali](name)
+- ich bin [Josh](name)
+- Ich heisse [Lucy](name)
+- Man nennt mich [Greg](name)
+- sag [David](name)
+- meine freunde nennen mich [Amy](name)
+- du kannst mich [John](name) nennen
+- du darft mich [Sam](name) nennen
+- Please call me [Linda](name)
+- mein name is [Tom](name)
+- [Lucy](name)
+- [Peter](name)
+- [Mark](name)
+- [Joseph](name)
+- [Tan](name)
+- [Pete](name)
+- [Elon](name)
+- [Penny](name)
+- [Fatima](name)
+- [Kai](name)
+- [Ralf](name)
+- [Oliver](name)
+- [Philipp](name)
+- [Karsten](name)
+- [Lina](name)
+- [Jenny](name)
+- name is [Andrew](name)
+- I [Lora](name)
+- [Stan](name) is my name
+- [Susan](name) is the name
+- [Ross](name) is my first name
+- [Bing](name) is my last name
+- Few call me as [Angelina](name)
+- Some call me [Julia](name)
+- Everyone calls me [Laura](name)
+- I am [Ganesh](name)
+- My name is [Mike](name)
+- just call me [Monika](name)
+- Few call [Dan](name)
+- You can always call me [Suraj](name)
+- Some will call me [Andrew](name)
+- My name is [Ajay](name)
+- I call [Ding](name)
+- I'm [Partia](name)
+- Please call me [Leo](name)
+- name is [Pari](name)
+- name [Sanjay](name)
+
+
+## intent:joke
+- erzähle einen witz
+- erzähle einen witz chat bot
+- erzähle einen witz bot
+- erzähle mir bitte einen witz
+- erzähle mir bitte einen witz chat bot
+- erzähle mir bitte einen witz bot
+- kannst du mir einen witz erzählen bot
+- kannst du mir einen witz erzählen
+- kannst du witze erzählen
+- bot kannst du witze erzählen
+- kannst du bitte einen witz erzählen
+- bist du gut im witze erzählen
+- kennst du witze
+- kennst du viele witze
+- Kanst du scherze machen
+- scherzt du manchmal
+- erzähle mir etwas lustiges
+- erzähle mir bitte etwas lustiges
+- bist du witzig
+- kannst du witzig sein
+- kannst du späße machen
+- Verstehst du spass
+- Verstehst du spaß
+- Bist du ein komiker
+- Bist du ein komisch
+- Kannst du komisch sein
+- sag was lustiges
+- sag was lustiges bot
+- kannst du was lustiges sagen
+- kannst du was lustiges erzählen
+- kannst du was lustiges machen
+- kennst du lustige witze
+- kennst du lustige späße
+- sei mal lustig
+- das ist nicht lustig hier
+- mache etwas lustiges
+- sei mal bitte witzig
+- sei bitte witzig
+- kennst du witziges
+- sag doch mal was lustiges
+- Witz
+- Kannst du witze erzählen bot
+
+## intent:tell_time
+- Kannst du mir die Uhrzeit nennen?
+- Kannst du mir die Uhrzeit sagen?
+- Kannst du mir die Zeit nennen?
+- Kannst du mir die Zeit sagen?
+- Kannst du mir sagen wie Spät es ist?
+- Weißt du wie spät es ist?
+- Weißt du wieviel uhr es ist?
+- Sag mir doch bitte wie spät es ist.
+- Sag mir wie spät es ist.
+- Sagst du mir wie spät es ist
+- Sagst du mir bitte wie spät es ist
+- Kannst du mir die uhrzeit sagen
+- Sagst du mir bitte die Uhrzeit
+- Sagst du mir bitte wie spät es ist?
+- Wie spät haben wir es?
+- Wie spät ist es?
+- Wie viel Uhr haben wir es?
+- Wie viel Uhr ist es?
+- Weißt du, wie viel Uhr wir haben?
+- Wie spät haben wir gerade?
+- Wie spät haben wir es gerade?
+- Was sagt die Uhr?
+- Kann ich dich nach der Uhrzeit fragen?
+- Kann ich dich nach der Zeit fragen?
+- Weißt du die Uhrzeit?
